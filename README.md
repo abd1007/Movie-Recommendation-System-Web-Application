@@ -1,7 +1,6 @@
 # Movie-Recommendation-System-Web-Application
 Building a Movie Recommendation System web application using Django framework and Recommendation technique called Collaborative Filtering 
-# Movie-Recommender-System
-A Web Base Movie Recommender Engine which Implement Collaborative Filtering By matrix factorizations algorithm.
+Matrix Factorization Algorithm
 
 ### Screenshot
 
@@ -15,12 +14,18 @@ A Web Base Movie Recommender Engine which Implement Collaborative Filtering By m
 ![rate](https://user-images.githubusercontent.com/20842692/45380186-be6f3280-b61f-11e8-8ad6-8b967d1cba1a.png)
 
 ### Technologies Used
-
 #### Web Technologies
-Html , Css , JavaScript , Bootstrap , Django
+- Python
+- HTML 
+- CSS
+- JavaScript
+- Bootstrap 
 
-#### Machine Learning Library In Python3
-Numpy , Pandas , Scipy
+#### Python Pakcages 
+- Django
+- Numpy
+- Pandas 
+- Scipy
 
 #### Database
 SQLite
@@ -28,59 +33,49 @@ SQLite
 ##### Requirements
 ```
 python 3.6
-
 pip3
-
 virtualenv
 ```
+
 ##### Setup to run
 
-Extract zip file in your computer
-
-Open terminal/cmd promt
-
-Goto that Path
+- Download zip file to your local machine
+- Extract the zip file
+- Open terminal/cmd promt
+- Goto that Path
 
 Example
 
 ```
-cd ~/Destop/Movie-Recommender-System
-```
-Create a new virtual environment on that directory
-
-```
-virtualenv .
+cd ~/Destop/Movie-Recommender-System-Web-Application-master
 ```
 
-Activate Your Virtual Environment
+Create a new virtual environment in that directory
+```
+python3.6 -m pip install virtualenv
+virtualenv venv -p python3.6
+```
 
-for Linux
+Activate virtual environment
 ```
-source bin/activate
+source venv/bin/activate
 ```
-for Windows
-```
-cd Scripts
-then
-activate
-```
-To install Dependencies
 
+Command line to Install all Dependencies
 ```
 pip install -r requirements.txt
 ```
 
-### Creating Local Server
-
-Goto src directory, example
-
+Then
 ```
-cd ../Movie-Recommender-System/src
+cd ../Movie-Recommender-System/MovieRecommendationApp
 ```
-To run
+
+Command line to run your program
 ```
 python manage.py runserver
 ```
+
 Now open your browser and go to this address
 ```
 http://127.0.0.1:8000
