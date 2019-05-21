@@ -1,5 +1,5 @@
 # Movie-Recommendation-System-Web-Application
-Building a Movie Recommendation System web application using Django framework and Collaborative Filtering technique
+Building a Movie Recommendation System web application using Django framework and Recommendation technique called Collaborative Filtering 
 # Movie-Recommender-System
 A Web Base Movie Recommender Engine which Implement Collaborative Filtering By matrix factorizations algorithm.
 
