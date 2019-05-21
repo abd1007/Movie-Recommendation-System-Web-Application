@@ -1,6 +1,6 @@
 # Movie-Recommendation-System-Web-Application
 Building a Movie Recommendation System web application using Django framework and Recommendation technique called Collaborative Filtering 
-Matrix Factorization Algorithm
+- Matrix Factorization Algorithm
 
 ### Screenshot
 
@@ -21,7 +21,7 @@ Matrix Factorization Algorithm
 - JavaScript
 - Bootstrap 
 
-#### Python Pakcages 
+#### Python Packages 
 - Django
 - Numpy
 - Pandas 
@@ -61,7 +61,7 @@ Activate virtual environment
 source venv/bin/activate
 ```
 
-Command line to Install all Dependencies
+Command line to install all dependencies
 ```
 pip install -r requirements.txt
 ```
