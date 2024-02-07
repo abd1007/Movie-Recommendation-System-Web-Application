@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{% block title %}Movies{% endblock title %}</title>
-    {% load staticfiles %}
 
-	<link rel="stylesheet" type="text/css" href="{% static 'web/css/bootstrap.min.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static '/web/css/bootstrap.min.css'%}">
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' >
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='{% static "web/css/base.css" %}' />
